@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">محلل كتلة الجسم</string>
     <string name="WELCOME">أهلا بك</string>
     <string name="LOGIN">تسجيل الدخول</string>
     <string name="signup">تسجيل حساب </string>
@@ -15,4 +15,17 @@
     <string name="email">البريد الالكتروني</string>
     <string name="creat">إنشاء</string>
     <string name="note4">هل تملك حساب ؟</string>
+    <string name="completeinfo">أكمل معلوماتك</string>
+    <string name="gender">الجنس</string>
+    <string name="weight">الوزن</string>
+    <string name="length">الطول</string>
+    <string name="dateOfBirth">تاريخ الميلاد</string>
+    <string name="saveData">حفظ البيانات</string>
+    <string name="kg">كغم</string>
+    <string name="cm">سم</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="newRecord">تسجيل جديد</string>
+    <string name="date">التاريخ</string>
+    <string name="time">الوقت</string>
 </resources>

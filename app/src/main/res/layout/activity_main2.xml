@@ -82,25 +82,24 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="@string/note2"
-        android:textSize="17dp"
+        android:textSize="17sp"
         app:layout_constraintEnd_toEndOf="@+id/login_b1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_b1" />
 
-    <Button
-        android:id="@+id/login_b2_signup"
+    <TextView
+        android:id="@+id/siignUp_tv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:background="@color/white"
         android:text="@string/signup"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
         android:textColor="@color/bluee"
-        android:textSize="15dp"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.23"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toEndOf="@+id/textView3"
-        app:layout_constraintTop_toBottomOf="@+id/login_b1" />
+        app:layout_constraintTop_toBottomOf="@+id/login_b1"
+        app:layout_constraintVertical_bias="1.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

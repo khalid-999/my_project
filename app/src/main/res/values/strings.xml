@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">BMI Anallyzer</string>
     <string name="name"> Name</string>
     <string name="username"> Username</string>
     <string name="password"> Password</string>
@@ -14,4 +14,17 @@
     <string name="creatnew"> Creat New Account</string>
     <string name="creat">CREATE</string>
     <string name="note4">You Have An Account?</string>
+    <string name="completeinfo">Complete Your Information</string>
+    <string name="gender">Gender</string>
+    <string name="weight">Weight</string>
+    <string name="length">Length</string>
+    <string name="dateOfBirth">Data Of Birth</string>
+    <string name="saveData">Save Data</string>
+    <string name="kg">kg</string>
+    <string name="cm">cm</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="newRecord">New Record</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
 </resources>
