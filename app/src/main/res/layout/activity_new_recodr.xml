@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginBottom="3dp"
     tools:context=".NewRecodr">
 
     <TextView
@@ -73,9 +74,9 @@
         app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
     <TextView
-        android:id="@+id/textView17"
-        android:layout_width="20sp"
-        android:layout_height="20sp"
+        android:id="@+id/new_record_kg_minus_tv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:layout_marginStart="70dp"
         android:background="@drawable/incshape"
         android:fontFamily="sans-serif-black"
@@ -90,18 +91,21 @@
         app:layout_constraintTop_toTopOf="@+id/textView13" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/new_record_kg_tv"
         android:layout_width="70sp"
-        android:layout_height="20sp"
+        android:layout_height="30dp"
         android:background="@drawable/incshape"
+        android:textAlignment="center"
+        android:textColor="@color/bluee"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView13"
-        app:layout_constraintStart_toEndOf="@+id/textView17"
+        app:layout_constraintStart_toEndOf="@+id/new_record_kg_minus_tv"
         app:layout_constraintTop_toTopOf="@+id/textView13" />
 
     <TextView
-        android:id="@+id/textView21"
-        android:layout_width="20sp"
-        android:layout_height="20sp"
+        android:id="@+id/new_record_kg_plus_tv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
         android:background="@drawable/incshape"
         android:text="+"
         android:textAlignment="center"
@@ -109,7 +113,7 @@
         android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView13"
-        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintStart_toEndOf="@+id/new_record_kg_tv"
         app:layout_constraintTop_toTopOf="@+id/textView13" />
 
     <TextView
@@ -121,17 +125,18 @@
         android:textColor="@color/bluee"
         android:textSize="17sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/textView21"
+        app:layout_constraintBottom_toBottomOf="@+id/new_record_kg_plus_tv"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView21"
-        app:layout_constraintTop_toTopOf="@+id/textView21"
+        app:layout_constraintStart_toEndOf="@+id/new_record_kg_plus_tv"
+        app:layout_constraintTop_toTopOf="@+id/new_record_kg_plus_tv"
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView26"
-        android:layout_width="20sp"
-        android:layout_height="20sp"
+        android:id="@+id/new_record_cm_plus_tv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="3dp"
         android:background="@drawable/incshape"
         android:text="+"
         android:textAlignment="center"
@@ -139,27 +144,29 @@
         android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView14"
-        app:layout_constraintEnd_toEndOf="@+id/textView21"
-        app:layout_constraintStart_toEndOf="@+id/textView27"
+        app:layout_constraintEnd_toEndOf="@+id/new_record_kg_plus_tv"
+        app:layout_constraintStart_toEndOf="@+id/new_record_cm_tv"
         app:layout_constraintTop_toTopOf="@+id/textView14" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/new_record_cm_tv"
         android:layout_width="70sp"
-        android:layout_height="20sp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="3dp"
         android:background="@drawable/incshape"
         android:textAlignment="center"
         android:textColor="@color/bluee"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView14"
-        app:layout_constraintEnd_toEndOf="@+id/textView20"
-        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="@+id/new_record_kg_tv"
+        app:layout_constraintStart_toStartOf="@+id/new_record_kg_tv"
         app:layout_constraintTop_toTopOf="@+id/textView14" />
 
     <TextView
-        android:id="@+id/textView28"
-        android:layout_width="20sp"
-        android:layout_height="20sp"
+        android:id="@+id/new_record_cm_minus_tv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="3dp"
         android:background="@drawable/incshape"
         android:text="-"
         android:textAlignment="center"
@@ -167,8 +174,8 @@
         android:textSize="17sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView14"
-        app:layout_constraintEnd_toEndOf="@+id/textView17"
-        app:layout_constraintStart_toStartOf="@+id/textView17"
+        app:layout_constraintEnd_toEndOf="@+id/new_record_kg_minus_tv"
+        app:layout_constraintStart_toStartOf="@+id/new_record_kg_minus_tv"
         app:layout_constraintTop_toTopOf="@+id/textView14" />
 
     <TextView
@@ -183,13 +190,14 @@
         android:textStyle="normal|bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView14"
         app:layout_constraintEnd_toEndOf="@+id/textView25"
-        app:layout_constraintStart_toEndOf="@+id/textView26"
+        app:layout_constraintStart_toEndOf="@+id/new_record_cm_plus_tv"
         app:layout_constraintTop_toTopOf="@+id/textView14" />
 
     <EditText
-        android:id="@+id/editTextDate"
+        android:id="@+id/new_record_date_et"
         android:layout_width="110sp"
-        android:layout_height="20sp"
+        android:layout_height="30dp"
+        android:layout_marginTop="3dp"
         android:background="@drawable/incshape"
         android:ems="10"
         android:inputType="date"
@@ -199,22 +207,23 @@
         app:layout_constraintStart_toEndOf="@+id/textView15"
         app:layout_constraintTop_toTopOf="@+id/textView15"
         app:layout_constraintVertical_bias="1.0"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextTime"
+        android:id="@+id/new_record_time_et"
         android:layout_width="110sp"
-        android:layout_height="20sp"
+        android:layout_height="30dp"
         android:background="@drawable/incshape"
         android:ems="10"
         android:inputType="time"
         app:layout_constraintBottom_toBottomOf="@+id/textView16"
-        app:layout_constraintEnd_toEndOf="@+id/editTextDate"
-        app:layout_constraintStart_toStartOf="@+id/editTextDate"
-        app:layout_constraintTop_toTopOf="@+id/textView16" />
+        app:layout_constraintEnd_toEndOf="@+id/new_record_date_et"
+        app:layout_constraintStart_toStartOf="@+id/new_record_date_et"
+        app:layout_constraintTop_toTopOf="@+id/textView16"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/saveDate_new_record"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="40dp"
@@ -228,6 +237,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.562"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTime"
+        app:layout_constraintTop_toBottomOf="@+id/new_record_time_et"
         app:layout_constraintVertical_bias="0.011" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -11,15 +11,16 @@
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
         android:text="@string/cm"
         android:textColor="@color/bluee"
         android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView10"
-        app:layout_constraintEnd_toEndOf="@+id/radioGroup"
-        app:layout_constraintStart_toEndOf="@+id/b2_kginc"
-        app:layout_constraintTop_toTopOf="@+id/textView10" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView7"
@@ -55,7 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:text="@string/weight"
         android:textColor="@color/bluee"
         android:textSize="20sp"
@@ -69,7 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:text="@string/length"
         android:textColor="@color/bluee"
         android:textSize="20sp"
@@ -83,13 +84,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:text="@string/dateOfBirth"
         android:textColor="@color/bluee"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/textView8"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.274"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -130,8 +131,8 @@
 
     <Button
         android:id="@+id/b_kgdec"
-        android:layout_width="20sp"
-        android:layout_height="20sp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/incshape"
         android:text="-"
         android:textColor="@color/bluee"
@@ -144,10 +145,12 @@
     <TextView
         android:id="@+id/tv_kg"
         android:layout_width="100sp"
-        android:layout_height="20sp"
+        android:layout_height="48dp"
         android:background="@drawable/incshape"
         android:textAlignment="center"
+        android:textAllCaps="false"
         android:textColor="@color/bluee"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/b_kgdec"
         app:layout_constraintStart_toEndOf="@+id/b_kgdec"
@@ -155,8 +158,8 @@
 
     <Button
         android:id="@+id/b2_kginc"
-        android:layout_width="20sp"
-        android:layout_height="20sp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/incshape"
         android:text="+"
         android:textColor="@color/bluee"
@@ -168,8 +171,8 @@
 
     <Button
         android:id="@+id/b2_cminc"
-        android:layout_width="20sp"
-        android:layout_height="20sp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/incshape"
         android:text="+"
         android:textColor="@color/bluee"
@@ -181,8 +184,8 @@
 
     <Button
         android:id="@+id/b1_cmdec"
-        android:layout_width="20sp"
-        android:layout_height="20sp"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
         android:background="@drawable/incshape"
         android:text="-"
         android:textColor="@color/bluee"
@@ -195,10 +198,12 @@
     <TextView
         android:id="@+id/tv_cm"
         android:layout_width="100sp"
-        android:layout_height="20sp"
+        android:layout_height="48dp"
         android:background="@drawable/incshape"
         android:textAlignment="center"
+        android:textAllCaps="false"
         android:textColor="@color/bluee"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/b1_cmdec"
         app:layout_constraintStart_toEndOf="@+id/b1_cmdec"
@@ -208,27 +213,15 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
+        android:layout_marginStart="5dp"
         android:text="@string/kg"
         android:textColor="@color/bluee"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/textView9"
-        app:layout_constraintEnd_toEndOf="@+id/radioGroup"
-        app:layout_constraintStart_toEndOf="@+id/b2_kginc"
-        app:layout_constraintTop_toTopOf="@+id/textView9" />
-
-    <EditText
-        android:id="@+id/birthDate_text"
-        android:layout_width="150sp"
-        android:layout_height="wrap_content"
-        android:background="@drawable/incshape"
-        android:ems="10"
-        android:inputType="date"
-        app:layout_constraintBottom_toBottomOf="@+id/textView11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/b1_cmdec"
-        app:layout_constraintTop_toTopOf="@+id/textView11"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toEndOf="@+id/b2_kginc"
+        app:layout_constraintTop_toTopOf="@+id/textView9"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
@@ -248,5 +241,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView11"
         app:layout_constraintVertical_bias="0.335" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="@drawable/incshape"
+        android:ems="10"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/b1_cmdec"
+        app:layout_constraintTop_toTopOf="@+id/textView11"
+        app:layout_constraintVertical_bias="0.523" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
